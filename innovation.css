@@ -7,9 +7,6 @@ body{
   color: grey;
 }
 
-#info {
-}
-
 #header {
 font-family: Arial;
  margin: 0;
@@ -26,3 +23,7 @@ font-family: Arial;
   text-align: left;
     color: grey;
   }
+
+ul problemspm{
+  font-size: 50px;
+}
