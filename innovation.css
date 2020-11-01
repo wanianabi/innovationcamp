@@ -21,8 +21,31 @@ font-family: Arial;
   background: #ffbb99;
   color: white;
   font-size: 30px;
-
+}
 #paragraf1 {
   text-align: left;
     color: grey;
+}
+
+.body_sec {
+    margin-left:15px;
   }
+
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+.serif {
+   "Lucida Console", Courier, monospace;
+}
