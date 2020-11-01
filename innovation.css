@@ -12,6 +12,7 @@ font-family: Arial;
  margin: 0;
  color: grey;
 }
+
 .header {
   padding: 60px;
   text-align: center;
@@ -22,8 +23,24 @@ font-family: Arial;
 #paragraf1 {
   text-align: left;
     color: grey;
-  }
+}
 
-#info{
-  font-size: 23px;
+table {
+  border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    padding: 8px 5px;
+    border: 2px solid navy;
+    border-right: 2px solid grey;
+    background-color: navy;
+    color: white;
+    font-size: 20px;
+}
+
+a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
 }
