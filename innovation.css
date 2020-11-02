@@ -1,46 +1,9 @@
-body{
-  background-color: white;
-}
-
-#tekst {
-  text-align: center;
-  color: grey;
-}
-
-#header {
-font-family: Arial;
- margin: 0;
- color: grey;
-}
 
 .header {
-  padding: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 100%;
   text-align: center;
   background: #ffbb99;
   color: white;
   font-size: 30px;
-
-#paragraf1 {
-  text-align: left;
-    color: grey;
-}
-
-table {
-  border-collapse: collapse;
-}
-
-th {
-    text-align: left;
-    padding: 8px 5px;
-    border: 2px solid navy;
-    border-right: 2px solid grey;
-    background-color: navy;
-    color: white;
-    font-size: 20px;
-}
-
-a{
-  color: white;
-  font-size: 20px;
-  text-decoration: none;
-}
