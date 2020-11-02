@@ -1,3 +1,23 @@
+<<<<<<< Updated upstream
+=======
+body{
+  background-color: white;
+}
+
+#tekst {
+  text-align: center;
+  color: grey;
+}
+
+#info {
+}
+
+#header {
+font-family: Arial;
+ margin: 0;
+ color: grey;
+}
+>>>>>>> Stashed changes
 
 .header {
   padding-top: 60px;
@@ -7,3 +27,37 @@
   background: #ffbb99;
   color: white;
   font-size: 30px;
+<<<<<<< Updated upstream
+=======
+}
+#paragraf1 {
+  text-align: left;
+    color: grey;
+}
+.body_sec {
+    margin-left:15px;
+  }
+
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+.column {
+  float: left;
+  width: 23%;
+  padding: 5px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+.body_sec {
+  font-family: "Times New Roman",Times, serif;
+}
+* {
+  box-sizing: border-box;
+}
+>>>>>>> Stashed changes
