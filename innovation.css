@@ -1,6 +1,4 @@
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
+
 body{
   background-color: white;
 }
@@ -18,7 +16,7 @@ font-family: Arial;
  margin: 0;
  color: grey;
 }
->>>>>>> Stashed changes
+
 
 .header {
   padding-top: 60px;
@@ -118,8 +116,7 @@ nav a{
 * {
   box-sizing: border-box;
 }
->>>>>>> Stashed changes
-=======
+
   font-family: Arial;
   color: #fff
 }
@@ -141,4 +138,3 @@ nav a{
   font-family: Arial;
   line-height: 30px;
 }
->>>>>>> Stashed changes
