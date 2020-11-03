@@ -22,19 +22,14 @@ font-family: Arial;
   padding-top: 60px;
   padding-bottom: 60px;
   width: 100%;
-=======
 *{
   margin: 0;
   padding: 0;
 }
 body{
->>>>>>> Stashed changes
   text-align: center;
 }
-.wrapper{
-  width: 1170px;
-  margin: 0 auto;
-}
+
 header{
   height: 100px;
   background: #262626;
@@ -82,9 +77,7 @@ nav a{
 }
 .bannerArea p{
   font-size: 30px;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
+
 }
 #paragraf1 {
   text-align: left;
@@ -94,7 +87,10 @@ nav a{
     margin-left:15px;
   }
 
-
+  .wrapper{
+    width: 1170px;
+    margin: 0 auto;
+  }
 
 
 .body_sec {
@@ -109,10 +105,8 @@ nav a{
 }
 .content-area{
   width: 100%;
-  position: relative;
-  top: 450px;
   background: #ddd;
-  height: 1500px;
+  height: ;
 }
 .content-area h2{
   font-family: Arial;
