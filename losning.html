@@ -11,7 +11,6 @@
   }
   body{
     text-align: center;
-    background-color: lightgrey;
   }
   .wrapper{
     width: 1170px;
@@ -22,14 +21,14 @@
     background: #262626;
     width: 100%;
     z-index: 12;
-    position: static;
+    position: fixed;
   }
   .logo{
     width: 30%;
     float: left;
     line-height: 100px;
   }
-  .logo a{
+  .logo p{
     text-decoration: none;
     font-size: 30px;
     font-family: Arial;
@@ -49,26 +48,30 @@
   }
   .bannerArea{
     width: 100%;
-    height: 300px;
+    height: 100%;
+    position: fixed;
+    top: 100px;
     background-color: #ffbb99;
     background-size: cover;
-
+    background-position: center center;
   }
   .bannerArea h2{
     padding-top: 8%;
     font-size: 70px;
     font-family: Arial;
-    color: white;
+    color: #262626;
   }
   .bannerArea p{
     font-size: 30px;
     font-family: Arial;
-    color: black;
+    color: #262626;
   }
   .content-area{
     width: 100%;
+    position: relative;
     top: 450px;
     background: #ddd;
+    height: 1500px;
   }
   .content-area h2{
     font-family: Arial;
@@ -81,9 +84,20 @@
     font-family: Arial;
     line-height: 30px;
   }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-container > div {
+    text-align: center;
+    padding: 5px 0;
+    font-size: 30px;
+  }
   #losning{
     border-bottom: 2px solid white;
   }
+
   </style>
 </head>
 <body>
@@ -92,12 +106,11 @@
     <header>
       <div class="wrapper">
         <div class="logo">
-          <a href="#">THRIVE</a>
+          <p>THRIVE</p>
         </div>
         <nav>
           <a href="index.html" id="index">Home</a>
           <a href="losning.html" id="losning">Solutions</a>
-          <a href="#">About</a>
         </nav>
       </div>
     </header>
@@ -105,25 +118,15 @@
     <div class="bannerArea">
       <h2>The solution</h2>
     </div>
-    <img src="bilde1.jpg">
-
-
+    <img src="bilde1.webp">
     <div class="content-area">
       <div class="wrapper">
-
-
         <div class="row">
           <div class="column">
             </div>
-
           </div>
-
-
-
-
             <div class="text1">
               <h3>Pre-recorded videos</h3>
-
             <p>A possible solution to this problem could be showing pre-recorded videos.
                The videos will be of classes where a teacher goes through the syllabus
                for the year. To record them one simply needs a group teacher speaking a
@@ -133,7 +136,6 @@
               a part of the syllabus. It could be done purely through charity.</p>
               <img src="math.jpg" alt="pre-recorded" width="70%">
               </div>
-
             <div class="text2">
               <h3>Attendance</h3>
               <p> As the teacher no longer has to teach as much as before, they will have more
@@ -144,7 +146,6 @@
                 can use the data to see if the attendance is getting better or worse.</p>
                 <img src="attendance.jpg" alt="attendance" width="60%">
               </div>
-
              <div class="text3">
                <h3>UNs sustainable development goal 4.1</h3>
                 <p> UNs sustainable development goal 4.1 states that everyone should have access to free
@@ -153,9 +154,8 @@
                    free to access, they could also be posted online, and used on the television for those who have
                   access to those resources
                   .</p>
-                  <img src="4.png" alt="un" width="70%">
+                  <img src="4un.svg" alt="pre-recorded" width="60%">
                   </div>
-
                 <div class="text4">
                   <h3>Risks</h3>
                   <p>As for the risks, it’s a possibility that someone might be tempted to steal the equipment,
@@ -165,8 +165,6 @@
                     make sure it’s stored safely.</p>
                     <img src="risks.png" alt="risks" width="70%">
                     </div>
-
-
               <div class="text5">
             <h3>How to play these vidoes?</h3>
             <p>Now, a problem here could be how to play these videos, especially at the schools
@@ -177,11 +175,7 @@
               According to LUMERI iX280-W PROJEKTOR, projectors using led lights consume up to 70%
                less power than other projectors. The projector should also have speakers to reduce the
               number of products one buys.</p>
-
-
-
                 </div>
-
            <div class="text6">
             <h3>Finances</h3>
             <p>The best way to get the money, would be through charity. For instance, on the page
@@ -189,14 +183,10 @@
               can be pitched to schools around Norway, and they could host fund raisers as well.</p>
               <img src="investors.png" alt="pre-recorded" width="70%">
               </div>
-
-
       </div>
     </div>
   </div>
-
-        </div>
-
+</div>
 
 </body>
 </html>
