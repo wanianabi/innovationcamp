@@ -1,27 +1,4 @@
-
-body{
-  background-color: white;
-}
-
-#tekst {
-  text-align: center;
-  color: grey;
-}
-
-#info {
-}
-
-#header {
-font-family: Arial;
- margin: 0;
- color: grey;
-}
-
-
-.header {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  width: 100%;
+/* //index og løsning*/
 *{
   margin: 0;
   padding: 0;
@@ -29,7 +6,10 @@ font-family: Arial;
 body{
   text-align: center;
 }
-
+.wrapper{
+  width: 1170px;
+  margin: 0 auto;
+}
 header{
   height: 100px;
   background: #262626;
@@ -42,7 +22,7 @@ header{
   float: left;
   line-height: 100px;
 }
-.logo a{
+.logo p{
   text-decoration: none;
   font-size: 30px;
   font-family: Arial;
@@ -73,40 +53,19 @@ nav a{
   padding-top: 8%;
   font-size: 70px;
   font-family: Arial;
-  color: #fff;
+  color: #262626;
 }
 .bannerArea p{
   font-size: 30px;
-
-}
-#paragraf1 {
-  text-align: left;
-    color: grey;
-}
-.body_sec {
-    margin-left:15px;
-  }
-
-  .wrapper{
-    width: 1170px;
-    margin: 0 auto;
-  }
-
-
-.body_sec {
-  font-family: "Times New Roman",Times, serif;
-}
-* {
-  box-sizing: border-box;
-}
-
   font-family: Arial;
-  color: #fff
+  color: #262626;
 }
 .content-area{
   width: 100%;
+  position: relative;
+  top: 450px;
   background: #ddd;
-  height: ;
+  height: 1500px;
 }
 .content-area h2{
   font-family: Arial;
@@ -119,6 +78,17 @@ nav a{
   font-family: Arial;
   line-height: 30px;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-container > div {
+  text-align: center;
+  padding: 5px 0;
+  font-size: 30px;
+}
+
 
 .text1 {
   background-color: lightgrey;
@@ -137,9 +107,8 @@ nav a{
   float: left;
   width: 22%;
   height: 640px;
-
-
 }
+
 .text3 {
   background-color: lightgrey;
   border: 15px solid grey;
@@ -148,7 +117,6 @@ nav a{
   float: right;
   width: 22%;
   height: 640px;
-
 }
 
 .text4 {
@@ -158,9 +126,8 @@ nav a{
   margin: 20px;
   float: left;
   width: 22%;
-
-
 }
+
 .text5 {
   background-color: lightgrey;
   border: 15px solid grey;
@@ -168,10 +135,8 @@ nav a{
   margin: 20px;
   float: left;
   width: 22%;
-
-
-
 }
+
 .text6 {
   background-color: lightgrey;
   border: 15px solid grey;
@@ -179,12 +144,4 @@ nav a{
   margin: 20px;
   float: right;
   width: 22%;
-
-
-}
-.tekstboks {
-  content: " ";
-  clear: both;
-  display: table;
-  width: 400px;
 }
